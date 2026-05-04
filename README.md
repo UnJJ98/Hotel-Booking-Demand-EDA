@@ -63,7 +63,7 @@
   
 * **customer_type** : Type of booking, assuming one of four categories: Contract - when the booking has an allotment or other type of contract associated to it; Group – when the booking is associated to a group; Transient – when the booking is not part of a group or contract, and is not associated to other transient booking; Transient-party – when the booking is transient, but is associated to at least other transient booking.
   
-* **adr* : Average Daily Rate as defined by dividing the sum of all lodging transactions by the total number of staying nights.
+* **adr** : Average Daily Rate as defined by dividing the sum of all lodging transactions by the total number of staying nights.
   
 * **required_car_parking_spaces** : Number of car parking spaces required by the customer.
   
