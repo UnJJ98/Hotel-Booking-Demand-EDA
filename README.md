@@ -1,2 +1,36 @@
 # Hotel-Booking-Demand-EDA
-本專案使用Hotel Booking資料集(Kaggle下載)，透過 Python、MySQL 與 Power BI 進行完整的數據分析流程，探究客人數量變化、客人類型等關鍵因素，分析其結果並提供商業決策和優化。此專案從資料庫取出資料、資料清理、EDA分析到視覺化報表，最後利用機器學習預測未來入住數量。
+## 專案簡介 (Project Overview)
+本專案使用Hotel Booking資料集 (Kaggle下載)，透過 Python、MySQL 與 Power BI 進行完整的數據分析流程，探究客人數量變化、客人類型等關鍵因素，分析其結果並提供商業決策和優化。此專案從資料庫取出資料、資料清理、EDA 分析到視覺化報表，並利用機器學習預測未來入住數量。
+
+## 專案目標（Business Objectives）
+
+
+## 資料集說明（Dataset Description）
+資料集主要欄位如下：
+* **hotel** : Hotel (H1 = Resort Hotel or H2 = City Hotel).
+* **is_canceled** : Value indicating if the booking was canceled (1) or not (0).
+* **lead_time** : Number of days that elapsed between the entering date of the booking into the PMS and the arrival date.
+* **arrival_date_year** : Year of arrival date.
+* **arrival_date_month** : Month of arrival date.
+* **arrival_date_week_number** : Week number of year for arrival date.
+* **arrival_date_day_of_month** : Day of arrival date.
+* **stays_in_weekend_nights** : Number of weekend nights (Saturday or Sunday) the guest stayed or booked to stay at the hotel.
+* **stays_in_week_nights** : Number of week nights (Monday to Friday) the guest stayed or booked to stay at the hotel.
+* **adults** : Number of adults.
+* **children** : Number of children.
+* **babies** : Number of babies.
+* **meal** : Type of meal booked. Categories are presented in standard hospitality meal packages: Undefined/SC – no meal package; BB – Bed & Breakfast; HB – Half board (breakfast and one other meal – usually dinner); FB – Full board (breakfast, lunch and dinner).
+* **country** : Country of origin. Categories are represented in the ISO 3155–3:2013 format.
+* **market_segment** : Market segment designation. In categories, the term “TA” means “Travel Agents” and “TO” means “Tour Operators”.
+* **distribution_channel** : Booking distribution channel. The term “TA” means “Travel Agents” and “TO” means “Tour Operators”.
+* **is_repeated_guest** : Value indicating if the booking name was from a repeated guest (1) or not (0).
+* **previous_cancellations** : Number of previous bookings that were cancelled by the customer prior to the current booking.
+* **previous_bookings_not_canceled** : Number of previous bookings not cancelled by the customer prior to the current booking.
+* **reserved_room_type** : Code of room type reserved. Code is presented instead of designation for anonymity reasons.
+* **assigned_room_type** : Code for the type of room assigned to the booking. Sometimes the assigned room type differs from the reserved room type due to hotel operation reasons (e.g. overbooking) or by customer request. Code is presented instead of designation for anonymity reasons.
+* **booking_changes** : Number of changes/amendments made to the booking from the moment the booking was entered on the PMS until the moment of check-in or cancellation.
+* **deposit_type** : Indication on if the customer made a deposit to guarantee the booking. This variable can assume three categories: No Deposit – no deposit was made; Non Refund – a deposit was made in the value of the total stay cost; Refundable – a deposit was made with a value under the total cost of stay..
+* **agent** : ID of the travel agency that made the booking.
+* **company** : ID of the company/entity that made the booking or responsible for paying the booking. ID is presented instead of designation for anonymity reasons.
+* **days_in_waiting_list** : Number of days the booking was in the waiting list before it was confirmed to the customer.
+* 
